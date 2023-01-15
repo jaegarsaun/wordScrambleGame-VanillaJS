@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <button onclick="displayWord();"></button>
+    <section class="content">
+        <div class="wrapper">
+            
+            <div class="top">
+            <div class="wordWrap">
+                <h1 id="word">PLACEHOLDER</h1>
+            </div>
+        </div>
+
+
+            <div class="break"></div>
+            <div class="hint" onclick="showHint();">HINT</div>
+            <div class="hintCont"></div>
+
+
+            <div class="bottom">
+            <form action="" class="form" id="form" onsubmit="formSubmit();">
+                <input type="text" placeholder="Enter Your Guess Here" value="" id="input">
+            </form>
+            <button type="submit" onclick="formSubmit();">Submit</button>
+        </div>
+        </div>
+    </section>
+    <script src="app.js"></script>
+</body>
+
+</html>
